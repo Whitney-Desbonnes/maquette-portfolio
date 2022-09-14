@@ -1,0 +1,287 @@
+@media (min-width: 430px) {
+   // HEADER
+   header {
+      height: auto;
+   }
+
+   // HOME
+   .home {
+      .home__btn {
+         flex-direction: row;
+         justify-content: left;
+         
+         a {
+            margin: 20px 0;
+         }
+
+         .btn-left {
+            margin-right: 20px;
+         }
+      }
+   }
+}
+
+
+
+@media (min-width: 630px) {
+
+   // ABOUT
+   .about {
+      display: flex;
+      align-items: center;
+   }
+
+   .about__description {
+      width: 50%;
+   }
+   .about__data {
+      transform: translateY(-50%);
+      width: 50%;
+      div {
+         width: 150px;
+         height: 150px;
+         border-radius: 150px;
+      }
+   }
+
+   // swiper
+   .swiper {
+      max-width: 600px;
+   }
+   
+}
+
+
+
+@media (min-width: 717px) { 
+   // CONTACT
+   .contact {
+      justify-content:left;
+      img {
+         max-width: 615px;
+         width: 50%;
+      }
+
+      .container {
+         width: 50%;
+         max-width: 615px;
+         padding-left: 50px;
+
+      }
+   }
+}
+
+
+
+@media (min-width: 730px) { 
+   // GLOBAL RESET
+   body {
+      position: initial;
+   }
+
+   h1 {
+      font-size: 2.8rem;
+   }
+
+   h2 {
+      font-size: 4.8rem;
+   }
+
+   h3 {
+      font-size: 2rem;
+   }
+
+   h4 {
+      font-size: 3rem;
+   }
+
+   h5 {
+      font-size: 2rem;
+   }
+  
+   .scrollTop {
+      right: 15%;
+   }
+
+   // swiper
+   .swiper {
+      max-width: 600px;
+   }
+
+   // HEADER
+   header {
+      height: 700px;
+   }
+
+   // NAV
+   .menu {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      .icon-menu {
+         display: none;
+     }
+      nav  {
+         position: initial;
+         top: initial;
+         left: initial;
+         transition: initial;
+         text-align: initial;
+         width: auto;
+         height: auto;
+         justify-content:end;
+         align-items: initial;
+         background-color: transparent;
+         font-size: 1.4rem;
+         width: 80%;
+         text-align: right;
+         ul {
+            display: flex;
+            align-items: center;
+            li {
+               margin: 0 10px;
+            }
+         }
+      }
+
+      .logo {
+         width: 20%;
+     }
+
+   }
+
+   // HOME
+   .home {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+
+      .home__container {
+         width: 50%;
+         margin: 100px 0;
+      }
+   }
+
+   // ABOUT
+   .about__description {
+      h4 {
+         font-size: 2.6rem;
+      }
+      
+      p {
+         font-size: 1.5rem;
+      }
+   }
+
+   // SERVICES
+   .services__list {
+      div {
+         max-width: 300px;
+         transition: 0.5s;
+         position: relative;
+         top: 0;
+         p {
+            font-size: 1.5rem;
+         }
+      }
+
+      div:hover {
+         top: -10px;
+         box-shadow: 0 0 5px rgb(0, 184, 147);
+      }
+   }
+
+   // SKILLS
+   .skill__details {
+      gap: 20px;
+      .card {
+         max-width: 400px;
+      }
+   }
+
+   // FEEDBACK
+   .customer {
+      max-width: 500px;
+   }
+
+   // FOOTER
+   .sommaire {
+      gap: 0;
+  
+      div {
+         width: 24%;
+      }
+   }
+
+   .copyright {
+      justify-content: space-between;
+      flex-direction: row;
+  
+      div:nth-child(1) {
+          margin-bottom: 0;
+      }
+   }
+
+   // SCROLLTOP
+   .scrollTop {
+      right: 5%;
+   }
+
+   // ABOUT // SERVICES // SKILL 
+   .about, .services__container, .skill__container, .project, .feedback, .news .sommaire, .copyright, .sommaire {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+   }
+
+}
+
+
+
+@media (min-width: 1030px) {
+   // swiper
+   .swiper {
+      max-width: 900px;
+   }
+
+}
+
+
+@media (min-width: 1230px) {
+   // CONTACT
+   .contact {
+      width: 87.6%;
+      h4 {
+         font-size: 2.6rem;
+      }
+
+      img {
+         max-width: 860px;
+      }
+
+      .container {
+         max-width: initial;
+
+      }
+   }
+
+   .container {
+      form {
+          
+         input {
+            width: 49.5%;
+         }
+
+         input:nth-child(1) {
+            margin-right: 0;
+         }
+      }
+  }
+
+   // NEWS
+   .news__card {
+      max-width: initial;
+   }
+
+
+}
