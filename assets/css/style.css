@@ -90,6 +90,7 @@ input:focus, textarea:focus {
   transition: .5s;
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
+  cursor: pointer;
 }
 
 .scrollTop i {

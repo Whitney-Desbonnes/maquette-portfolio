@@ -95,6 +95,7 @@ input:focus, textarea:focus {
     opacity: 0;
     transition: .5s;
     transform: translateY(30px);
+    cursor: pointer;
 
     i {
         font-size: 2.5rem;
